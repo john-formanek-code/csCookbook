@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procenta a poměry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Procenta a poměry</h1>
+        <p>Vypočítáme procenta, dopočítáme základ nebo zjednodušíme poměr.</p>
+        <select id="varianta">
+            <option value="procento">Kolik je procent z čísla</option>
+            <option value="zaklad">Z jakého čísla je část</option>
+            <option value="pomer">Zjednodušit poměr</option>
+        </select>
+        <input type="number" id="procento" placeholder="Procenta (%)" />
+        <input type="number" id="zaklad" placeholder="Základní číslo" />
+        <input type="number" id="cast" placeholder="Část hodnoty" />
+        <input type="number" id="pomer_a" placeholder="První číslo poměru" />
+        <input type="number" id="pomer_b" placeholder="Druhé číslo poměru" />
+        <button onclick="spocitejProcenta()">Spočítat</button>
+        <div id="div_vysledek">
+            Vyber variantu a doplň potřebná čísla
+        </div>
+    </div>
+</body>
+</html>
