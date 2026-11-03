@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Roblox Rivals - Loadout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="db.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <h1>Roblox Rivals<br />Gun Customization</h1>
+
+            <h3>Obrázek</h3>
+            <img id="weaponImg" src="img/Empty.png" alt="Empty" />
+
+            <select id="weaponSelect" onchange="updateView()">
+                <option value="Empty">Empty</option>
+                <option value="BR">Burst Rifle</option>
+                <option value="RPG">RPG</option>
+            </select>
+
+            <h3>Skin</h3>
+            <label class="switch">
+                <input type="checkbox" id="skinCheck" onchange="updateView()" />
+                <span class="slider"></span>
+            </label>
+
+            <h3>Wrap</h3>
+            <label class="switch">
+                <input type="checkbox" id="wrapCheck" onchange="updateView()" />
+                <span class="slider"></span>
+            </label>
+
+            <button id="saveBtn" onclick="saveFavorite()">Uložit do oblíbených</button>
+        </div>
+        <div id="tabs">
+            <a href="index.html" class="tab active">Loadout</a>
+            <a href="favorites.html" class="tab">Favorites</a>
+        </div>
+    </div>
+</body>
+</html>
