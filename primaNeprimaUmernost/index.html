@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přímá a nepřímá úměrnost</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Přímá a nepřímá úměrnost</h1>
+        <p>Dosadíš známé hodnoty x1, y1 a novou hodnotu x2 a kalkulačka dopočítá chybějící y2.</p>
+        <input type="number" id="x1" placeholder="x1 (původní)" />
+        <input type="number" id="y1" placeholder="y1 (původní)" />
+        <input type="number" id="x2" placeholder="x2 (nová hodnota)" />
+        <select id="typ_umernosti">
+            <option value="">Vyber typ úměrnosti</option>
+            <option value="prima">Přímá úměrnost</option>
+            <option value="neprima">Nepřímá úměrnost</option>
+        </select>
+        <button onclick="spocitejUmernost()">Spočítat</button>
+        <div id="div_vysledek">
+            Výsledek y2
+        </div>
+    </div>
+</body>
+</html>
