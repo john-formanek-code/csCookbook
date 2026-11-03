@@ -1,0 +1,7 @@
+{
+    "name": "W40k Tactical Marine",
+    "short_name": "W40k Marine",
+    "description": "Jednoducha PWA - konfigurator Tactical Marine",
+    "start_url": "/index.html",
+    "display": "standalone"
+}
