@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="manifest.json">
+    <script src="app.js"></script>
+</head>
+<body flex>
+    <div class="calculator">
+        <h1>Převod jednotek</h1>
+        <h1>Hmotnost</h1>
+        <input id="value" type="number" placeholder="Zadej hodnotu">
+        <h3>Převod z:</h3>
+        <select id="from">
+            <option value="g">g</option>
+            <option value="kg">kg</option>
+            <option value="t">t</option>
+        </select>
+        <h3>Převod do:</h3>
+        <select id="to">
+            <option value="g">g</option>
+            <option value="kg">kg</option>
+            <option value="t">t</option>
+        </select>
+        <button onclick="pocitej()">Převést</button>
+        <div id="result" class="result"></div>
+    </div>
+</body>
+</html>
+

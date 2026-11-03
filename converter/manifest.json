@@ -1,0 +1,7 @@
+{
+  "name": "Převody hmotnosti",
+  "short_name": "converter",
+  "description": "Převodník jednotek",
+  "start_url": "/index.html",
+  "display": "standalone"
+}
