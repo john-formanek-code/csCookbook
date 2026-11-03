@@ -1,0 +1,7 @@
+{
+    "name": "Konfigurator W40k",
+    "short_name": "W40k",
+    "description": "Implementace vice strankove aplikace pro konfiguraci tactical machine or soemthing",
+    "start_url": "./index.html",
+    "display": "standalone"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W40k - Nastavení</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app_setup.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <h1>Nastavení výzbroje</h1>
+
+            <div class="group">
+                <h2>Zbraň</h2>
+                <label class="option">
+                    <input type="radio" name="weapon" value="sword" id="weapon_sword" />
+                    Sword
+                </label>
+                <label class="option">
+                    <input type="radio" name="weapon" value="axe" id="weapon_axe" />
+                    Axe
+                </label>
+            </div>
+
+            <div class="group">
+                <h2>Chapter</h2>
+                <label class="option">
+                    <input type="radio" name="chapter" value="space-wolves" id="chapter_space_wolves" />
+                    Space Wolves
+                </label>
+                <label class="option">
+                    <input type="radio" name="chapter" value="ultramarines" id="chapter_ultramarines" />
+                    Ultramarines
+                </label>
+            </div>
+
+            <div id="setup_status">Aktuální volba: Space Wolves + Sword</div>
+        </div>
+        <div id="tabs">
+            <a href="index.html" class="tab">Marine</a>
+            <a href="setup.html" class="tab active">Nastavení</a>
+        </div>
+    </div>
+</body>
+</html>
