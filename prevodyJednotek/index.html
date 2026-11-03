@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Převody jednotek</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Převody jednotek</h1>
+        <input type="number" id="vstupni_hodnota" placeholder="hodnota k převodu" />
+        <select id="typ_prevodu">
+            <option value="">Vyber převod</option>
+            <option value="m_km">Metry → Kilometry</option>
+            <option value="km_m">Kilometry → Metry</option>
+            <option value="m_cm">Metry → Centimetry</option>
+            <option value="cm_m">Centimetry → Metry</option>
+            <option value="kg_g">Kilogramy → Gramy</option>
+            <option value="g_kg">Gramy → Kilogramy</option>
+            <option value="l_ml">Litry → Mililitry</option>
+            <option value="ml_l">Mililitry → Litry</option>
+        </select>
+        <button onclick="prevodJednotek()">Převést</button>
+        <div id="div_vysledek">
+            Výsledek převodu
+        </div>
+    </div>
+</body>
+</html>
