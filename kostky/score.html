@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Kostky - Skóre</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="db.js" defer></script>
+    <script src="score.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <h1>Kostky</h1>
+            <h2>Score</h2>
+            <h3>Hráč : CPU</h3>
+            <div class="label" id="score_label">0 : 0</div>
+            <h3>Historie</h3>
+            <p>Cíl / Hráč / CPU - Výsledek</p>
+            <div id="historie_label"></div>
+            <button id="reset_btn" onclick="reset()">Reset</button>
+        </div>
+        <div id="tabs">
+            <a href="index.html" class="tab">Hra</a>
+            <a href="score.html" class="tab active">Skóre</a>
+        </div>
+    </div>
+</body>
+</html>

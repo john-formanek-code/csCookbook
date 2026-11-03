@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Kostky - Hra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="db.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <h1>Kostky</h1>
+
+            <h3>Požadovaný součet</h3>
+            <div class="label" id="cil_label"></div>
+
+            <h2>Hráč</h2>
+            <div id="hrac_labels">
+                <div>
+                    <h3>součet</h3>
+                    <div class="label" id="hrac_label">0</div>
+                </div>
+                <div>
+                    <h3>kostka</h3>
+                    <div class="label" id="kostka_label"></div>
+                </div>
+            </div>
+            <div id="buttons">
+                <button id="konec_btn" onclick="konec()">Konec</button>
+                <button id="hazet_btn" onclick="hazet()">Házet</button>
+            </div>
+
+            <h2>Počítač</h2>
+            <h3>součet</h3>
+            <div class="label" id="pocitac_label"></div>
+
+            <h2>Výsledek</h2>
+            <div class="label" id="vysledek_label"></div>
+            <button id="nova_hra_btn" onclick="novaHra()" hidden>Nová hra</button>
+        </div>
+        <div id="tabs">
+            <a href="index.html" class="tab active">Hra</a>
+            <a href="score.html" class="tab">Skóre</a>
+        </div>
+    </div>
+</body>
+</html>
