@@ -1,0 +1,7 @@
+{
+  "name": "Převody délky",
+  "short_name": "Převodník",
+  "description": "Kalkulačka na převody délky",
+  "start_url": "/index.html",
+  "display": "standalone"
+}
