@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythagorova věta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Pythagorova věta</h1>
+        <p>Jednoduše spočítáme přeponu nebo chybějící odvěsnu pravoúhlého trojúhelníku.</p>
+        <select id="varianta">
+            <option value="c">Spočítat přeponu c</option>
+            <option value="a">Spočítat odvěsnu a</option>
+            <option value="b">Spočítat odvěsnu b</option>
+        </select>
+        <input type="number" id="odvesna_a" placeholder="Odvěsna a" />
+        <input type="number" id="odvesna_b" placeholder="Odvěsna b" />
+        <input type="number" id="prepona_c" placeholder="Přepona c" />
+        <button onclick="spocitejPythagora()">Vypočítat</button>
+        <div id="div_vysledek">
+            Vyber, co chceš spočítat a doplň známé strany
+        </div>
+    </div>
+</body>
+</html>
