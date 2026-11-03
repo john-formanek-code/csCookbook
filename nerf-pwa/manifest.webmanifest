@@ -1,0 +1,21 @@
+{
+  "name": "Nerf Elite 2.0 Loadout",
+  "short_name": "Nerf Loadout",
+  "description": "Jednoduchý PWA konfigurátor NERF výzbroje.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d8fd3",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
