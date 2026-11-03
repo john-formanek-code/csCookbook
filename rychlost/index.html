@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El. výkon</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="manifest" href="manifest.json" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div>
+            <h1>El. výkon</h1>
+            <p>Zadej napětí a proud, dopočítáme výkon.</p>
+        <input type="number" id="napeti" placeholder="Napětí U [V]" step="any" />
+        <input type="number" id="proud" placeholder="Proud I [A]" step="any" />
+        <div id="div_vysledek">
+            Výkon P [W]
+        </div>
+        <button onclick="spocitejVykon()">Spočítat</button>
+    </div>
+</body>
+</html>
