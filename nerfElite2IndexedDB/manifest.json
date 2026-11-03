@@ -1,0 +1,7 @@
+{
+    "name": "NERF Konfigurator - indexDB",
+    "short_name": "NERF",
+    "description": "Jednoducha PWA aplikace pro konfigurator NERF vyzbroje",
+    "start_url": "./index.html",
+    "display": "standalone"
+}

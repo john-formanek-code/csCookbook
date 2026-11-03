@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerf Elite 2.0 - Loadout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="db.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="phone">
+        <h1>Nerf Elite 2.0</h1>
+        <img class="logo" src="./img/NerfElite2_logo.png" alt="Nerf Elite 2.0 logo" />
+
+        <section class="weapon-section">
+            <h2>Primary weapon</h2> 
+            <div class="weapon-box">
+                <img id="primaryImg" src="img/Empty.png" alt="Primary weapon" />
+            </div>
+            <select id="primarySelect">
+                    <option value="Empty">Empty</option>
+                    <option value="Eaglepoint">Eaglepoint</option>
+                    <option value="Turbine">Turbine</option>
+                    <option value="Phoenix">Phoenix</option>
+            </select>
+        </section>
+
+        <section class="weapon-section">
+            <h2>Secondary weapon</h2>
+            <div class="weapon-box">
+                <img id="secondaryImg" src="img/Empty.png" alt="Secondary weapon" />
+            </div>
+            <select id="secondarySelect">
+                    <option value="Empty">Empty</option>
+                    <option value="Warden">Warden</option>
+                    <option value="Commander">Commander</option>
+                    <option value="Volt">Volt</option>
+            </select>
+        </section>
+
+        <button id="saveBtn" class="save-btn" type="button">Uložit do oblíbených</button>
+
+        <nav class="bottom-nav">
+            <a class="active" href="index.html">Loadout</a>
+            <a href="favorites.html">Favorites</a>
+        </nav>
+    </main>
+</body>
+</html>
