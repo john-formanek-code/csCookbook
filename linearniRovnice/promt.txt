@@ -1,0 +1,47 @@
+• Pattern Notes
+
+  - Calculator/index.html:1 keeps the entire UI in a single column: static <head> with style.css, manifest.json, and
+    app.js, then one centered <div> containing a <h1>, native <input type="number"> controls, a <select>, and a <button>,
+    with the result shown in a plain <div id="div_vysledek">.
+  - Calculator/app.js:1-59 always starts with the same service-worker registration snippet, uses window.onload only when
+    necessary, and writes one global function (pocitej) that pulls DOM values via document.getElementById, logs them,
+    validates them with simple if/else blocks, and switches over the selected operation before writing the text result.
+  - Calculator/style.css:1-30 is intentionally minimal: flexbox-centers the page, keeps inputs/buttons at 90% width, and
+    reuses the same bordered card style for the wrapper and result area.
+
+  Reusable Prompt
+
+  You already know the coding style from my "Calculator" sample: three flat files (index.html, style.css, app.js), very
+  small vanilla JS, Czech labels, console.log debugging, easy validation, and the same simple flexbox CSS card layout.
+
+  Write a new calculator app in exactly that style. Follow this spec:
+  TITLE: <give app name, e.g., "Ohmův zákon">
+  DESCRIPTION: <short Czech sentence about what we calculate>
+  INPUTS: <list each input with type=number text, id, and placeholder text>
+  COMPUTE: <describe the formula/steps and any branching>
+  VALIDATION: <rules such as "zakaz delení nulou" or "zobraz hlášku pokud chybí vstup">
+  OUTPUT LABEL: <text that should sit inside #div_vysledek before calculation>
+
+  Requirements:
+  1. index.html – same structure as in the sample (DOCTYPE, meta viewport, links to style.css + manifest.json, defer-loaded
+  app.js). Wrap everything in one centered `<div>`, keep headings/labels in Czech, and use native inputs/selects/buttons.
+  Result sits in `<div id="div_vysledek">`.
+  2. app.js – begin with the identical service-worker registration snippet. After that, create one function (name it after
+  the task) that:
+     - Reads values with `document.getElementById`, converts via `parseFloat`, and logs them with `console.log`.
+     - Implements the COMPUTE + VALIDATION steps using the same naive `if/else` + `switch` style as the reference,
+  including Czech strings for user messages.
+     - Writes the result into `div_vysledek` using `innerText`.
+     Keep comments short and colloquial like in the sample (//stahneme…, //kontrolni vypis).
+  3. style.css – reuse the same flex column card look: body centered with flexbox, a bordered + rounded container, 90%
+  width inputs/selects/buttons with margin/padding, and a bordered result box. Keep it as small and “dumb” as Calculator/
+  style.css.
+  4. Overall tone: simple, human, no frameworks, no extra files. Output only the three file contents, nothing else.
+
+  Fill in TITLE/DESCRIPTION/INPUTS/COMPUTE/VALIDATION/OUTPUT LABEL when you use this prompt and keep everything else
+  exactly as written so the generated code stays as easy as my current projects.
+
+  1. Add your specific physics/math formula details into the SPEC block and reuse this prompt whenever you need a new
+     simple calculator.
+  2. After generation, drop the files into a copy of the Calculator folder so the existing manifest/sw.js keep working.
+ 

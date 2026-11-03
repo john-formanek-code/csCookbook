@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineární rovnice a soustavy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Lineární rovnice a soustavy</h1>
+        <p>Vyřešíme ax + b = 0 nebo soustavu dvou rovnic se dvěma neznámými.</p>
+        <select id="typ_vypoctu">
+            <option value="linearni">Lineární rovnice</option>
+            <option value="soustava">Soustava dvou rovnic</option>
+        </select>
+        <input type="number" id="koef_a" placeholder="Koeficient a (ax + b = 0)" />
+        <input type="number" id="koef_b" placeholder="Koeficient b (ax + b = 0)" />
+        <input type="number" id="a1" placeholder="a1 (a1x + b1y = c1)" />
+        <input type="number" id="b1" placeholder="b1 (a1x + b1y = c1)" />
+        <input type="number" id="c1" placeholder="c1 (a1x + b1y = c1)" />
+        <input type="number" id="a2" placeholder="a2 (a2x + b2y = c2)" />
+        <input type="number" id="b2" placeholder="b2 (a2x + b2y = c2)" />
+        <input type="number" id="c2" placeholder="c2 (a2x + b2y = c2)" />
+        <button onclick="spocitejLinearni()">Spočítat</button>
+        <div id="div_vysledek">
+            Vyber typ výpočtu a zadej koeficienty
+        </div>
+    </div>
+</body>
+</html>
