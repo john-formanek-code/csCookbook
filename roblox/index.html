@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Rivals - Zbraň</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="db.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <h1>Roblox Rivals Gun Customization</h1>
+
+            <h3>Obrázek</h3>
+            <img id="weaponImg" src="imgB/Empty.png" alt="Zbraň" />
+
+            <select id="weaponSelect">
+                <option value="Empty">Žádný</option>
+                <option value="BR">Burst Rifle</option>
+                <option value="RPG">RPG</option>
+            </select>
+
+            <h3>Skin</h3>
+            <label class="switch">
+                <input type="checkbox" id="skinCheck" />
+                <span class="slider"></span>
+            </label>
+
+            <h3>Wrap</h3>
+            <label class="switch">
+                <input type="checkbox" id="wrapCheck" />
+                <span class="slider"></span>
+            </label>
+
+            <button id="saveBtn" type="button">Uložit do oblíbených</button>
+        </div>
+        <div id="tabs">
+            <a href="index.html" class="tab active">Zbraň</a>
+            <a href="favorites.html" class="tab">Oblíbené</a>
+        </div>
+    </div>
+</body>
+</html>
