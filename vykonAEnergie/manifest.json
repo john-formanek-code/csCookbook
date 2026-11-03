@@ -1,0 +1,7 @@
+    {
+        "name": "El. výkon",
+        "short_name": "Výkon",
+        "description": "Jednoduché P = U * I",
+        "start_url": "/index.html",
+        "display": "standalone"
+    }
