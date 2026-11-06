@@ -1,0 +1,6 @@
+[submodule "moa/johanovsky/2026_MOA4"]
+	path = moa/johanovsky/2026_MOA4
+	url = https://github.com/john-formanek-code/2026_MOA4.git
+[submodule "moa/johanovsky/2026_MOA3"]
+	path = moa/johanovsky/2026_MOA3
+	url = https://github.com/john-formanek-code/2026_MOA3.git
