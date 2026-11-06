@@ -4,6 +4,8 @@ Coursework from school, organized by subject.
 
 ## Structure
 
+- `apv/` — APV
+  - `my-work/` — my own exercises, organized by topic: `access` (Access/database exercises, one per assignment), `excel`, `powerpoint`, `styly_word`, `ostatni`
 - `moa/` — MOA
   - `my-work/` — my own projects (JS/PWA exercises), organized by topic: `01_zaklady`, `02_kalkulatory_matika_fyzika`, `03_hry`, `04_pwa_s_databazi`, `05_pocasi_api`
   - `johanovsky/` — forks of the teacher's course repos (submodules)

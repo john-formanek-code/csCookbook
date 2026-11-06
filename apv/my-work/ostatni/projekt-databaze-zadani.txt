@@ -1,0 +1,22 @@
+Cesta ke stránce
+
+    Nástěnka / ► Moje kurzy / ► APV2 / ► Kadlec / ► Projekt databáze
+
+Projekt databáze
+
+Projekt databáze ACCESS – APV
+
+        zpracujte databázi dle zvoleného tématu (můžete využít projekt ze ZZD)
+        počet tabulek (cca 5)
+        relace (1:N, N:M)
+        tabulky naplňte daty
+        vytvořte následující typy dotazů 2X (výběrový, aktualizační, křížový)
+        po spuštění databáze se automaticky otevře Hlavní formulář (navigace)
+        z něj budou spouštěny další min. 2 formuláře a min. 2 sestavy
+        součástí návrhu databáze bude ERa diagram (nakreslete ve Wordu nebo Dia, ne výstup z ACCESSu!!!)
+
+
+Zpracujte návrh Vaší databáze v ER modelu (stačí rukou na papíru):   do 6. 5. 2026
+
+Odevzdání: do 10. 6. 2026!!!!! na přenosném médiu (USB)
+Naposledy změněno: Středa, 22. duben 2026, 15.13

@@ -1,0 +1,14 @@
+Nový a intuitivní vzhled
+Karty byly vytvoøeny tak, aby byly zamìøeny na jednotlivé úkoly.
+Skupiny na jednotlivých kartách rozdìlují úkoly na dílèí úkoly.
+Pøíkazová tlaèítka v jednotlivých skupinách provádìjí pøíkazy nebo zobrazí nabídku pøíkazù.
+
+Další zmìny
+Témata a rychlé styly 
+Vlastní rozložení snímkù 
+Obrázky SmartArt v návrháøské kvalitì 
+Nové a zdokonalené efekty 
+Nové možnosti textu 
+Formátování tabulek a grafù 
+Nástroje kontroly pravopisu 
+Zobrazení pøedvádìjícího 

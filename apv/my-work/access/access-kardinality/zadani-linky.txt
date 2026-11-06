@@ -1,0 +1,12 @@
+Cesta ke stránce
+
+    Nástěnka / ► Moje kurzy / ► APV2 / ► Kadlec / ► Access - kardinality 1:N, M:N
+
+Access - kardinality 1:N, M:N
+
+Zde odevzdejte databázi ze zpracovanými relacemi 1:N a M:N dle videonávodů. Použijte připojený soubor s připravenými tabulkami.
+
+Tutoriál 1:N: https://ssptaji-my.sharepoint.com/:v:/g/personal/kadlec_prumyslovkajihlava_cz/EbrtRV_4kSpIpRUHdBUn2jkBRSCo-hefPqtVdQnDEWlT4Q?e=3YFqBl
+
+Tutoriál M:N: https://ssptaji-my.sharepoint.com/:v:/g/personal/kadlec_prumyslovkajihlava_cz/EdrxGa6SWaJNnU5Uc3cR93QBXAe9Z1Rq8TuDDdDFp5VM2A?e=jrID1b
+
