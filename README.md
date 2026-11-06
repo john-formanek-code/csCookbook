@@ -11,6 +11,7 @@ Coursework from school, organized by subject.
   - `java/my-work/src/` — my own Java exercises, organized by topic (`01_zaklady` … `15_sql`). `16_mini_projekty` is only for things with no single topic (a JavaFX GUI project, one broken fragment) — everything else (file I/O, OOP, sorting, etc.) lives under its matching numbered topic even when it came from a larger multi-file project. `_ke_smazani` is junk.
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
   - `php/my-work/` — my own PHP exercises, organized by topic: `01_zaklady`, `02_funkce_include`, `03_formulare_get_post`, `04_algoritmy_s_formularem`, `05_cookies_a_session`, `_ke_smazani`
+  - `sql/my-work/` — SQL dumps/exercises
   - `vba/teorie/` — VBA theory materials (slides, docs)
 - `zzd/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
