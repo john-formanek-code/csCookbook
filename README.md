@@ -8,7 +8,7 @@ Coursework from school, organized by subject.
   - `my-work/` — my own projects (JS/PWA exercises), organized by topic: `01_zaklady`, `02_kalkulatory_matika_fyzika`, `03_hry`, `04_pwa_s_databazi`, `05_pocasi_api`
   - `johanovsky/` — forks of the teacher's course repos (submodules)
 - `prm-pva/` — PRM and PVA (same subject in practice, split by language taught)
-  - `java/my-work/src/` — my own Java exercises, organized by topic (`01_zaklady` … `15_sql`, plus `16_mini_projekty` for standalone multi-file projects and `_ke_smazani` for junk)
+  - `java/my-work/src/` — my own Java exercises, organized by topic (`01_zaklady` … `15_sql`). `16_mini_projekty` is only for things with no single topic (a JavaFX GUI project, one broken fragment) — everything else (file I/O, OOP, sorting, etc.) lives under its matching numbered topic even when it came from a larger multi-file project. `_ke_smazani` is junk.
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
   - `php/my-work/` — my own PHP exercises, organized by topic: `01_zaklady`, `02_funkce_include`, `03_formulare_get_post`, `04_algoritmy_s_formularem`, `05_cookies_a_session`, `_ke_smazani`
   - `vba/teorie/` — VBA theory materials (slides, docs)
