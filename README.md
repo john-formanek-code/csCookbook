@@ -15,6 +15,8 @@ Coursework from school, organized by subject.
   - `reseni/` — solved exercises
   - `vba/` — macro-enabled projects
   - `data/` — source data files
+- `php/` — PHP
+  - `my-work/` — my own exercises
 
 No split by year — subjects stay together regardless of which year they were taken.
 
