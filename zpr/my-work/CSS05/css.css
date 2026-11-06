@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hlavni{
+    margin: 0 auto;
+    width: 600px;
+    background-color: aqua;
+    padding: 15px 15px 50px 15px;
+    border: dotted;
+    border-radius: 20px;
+    position: relative;
+}
+.penize{
+    width: 150px;
+    float: right;
+    border: 2px solid blue;
+    margin: 10px;
+    margin: 0 0 10px 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 80px;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    margin: 0px;
+}
+/*hlavička musí mít relativní/*

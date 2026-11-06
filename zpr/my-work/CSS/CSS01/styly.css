@@ -1,0 +1,12 @@
+body{
+    background-color: navajowhite;
+    color: blueviolet;
+}
+
+h1, h3{
+    color: cornflowerblue;
+    background-color: gold;
+}
+p{
+    background-color: dimgray;
+}

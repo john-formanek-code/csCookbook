@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+#menu{
+    background-color: blueviolet;
+    width: 150px;
+    height: 200px;
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+#main{
+    background-color: chartreuse;
+    width: 550px;
+    float: right;
+    min-height: 300px;
+}
+#head{
+    width: 700px;
+    height: 100px;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+}
+#all{
+    width: 700px;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+#foot{
+    background-color: black;
+    width: 700px;
+    height: 30px;
+    color: blanchedalmond;
+    clear: both;
+    text-align: center;
+
+}

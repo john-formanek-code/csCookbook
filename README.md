@@ -18,6 +18,8 @@ Coursework from school, organized by subject.
   - `vba/` — macro-enabled projects
   - `data/` — source data files
 - `zmm/` — ZMM (Photoshop lesson material)
+- `zpr/` — ZPR (HTML/CSS coursework)
+  - `my-work/` — my own exercises
 
 No split by year — subjects stay together regardless of which year they were taken.
 

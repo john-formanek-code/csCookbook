@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláře</title>
+</head>
+<body bgcolor="lightgreen">
+    <h1>Formuláře</h1>
+
+    <form method="post" action="odesli.php">
+        <fieldset>
+            <legend><strong>Osobní údaje</strong></legend>
+        <table border="0" cellpadding="5px">
+            <tr>
+                <td>
+                    Jméno
+                </td>
+                <td>
+                    <input type="text" name="jmeno" placeholder="vložte jméno"/><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    heslo:
+                </td>
+                <td>    
+                    <input type="password" name="heslo" placeholder="vložte heslo" maxlength="5"/><br>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        <br>
+        <button type="submit">Odeslat</button>
+    
+
+
+    Které ovoce máš rád:<br>
+    Tren:<input type="radio" name="ot1"><br>
+    Protein:<input type="radio" name="ot1"><br>
+    Kreatin:<input type="radio" name="ot1"><br>
+    
+    Které dny jezdíš autobusem:<br>
+    Po:<input type="checkbox" name="ot1" checked="checked"><br>
+    Út:<input type="checkbox" name="ot1"><br>
+    St:<input type="checkbox" name="ot1"><br>
+    ČT:<input type="checkbox" name="ot1"><br>
+    Pá:<input type="checkbox" name="ot1"><br>
+    So:<input type="checkbox" name="ot1"><br>
+    Ne:<input type="checkbox" name="ot1"><br>
+
+    <textarea name="" type="text" rows="5">
+
+    </textarea>
+
+    <select>
+        <option>Tomáš</option>
+        <option>Jarda</option>
+        <option>Helena</option>
+    </select>
+    <br>
+    <button type="submit">Odeslat</button>
+    <button type="reset">Smazat</button>
+</form>
+
+</body>
+</html>
