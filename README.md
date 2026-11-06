@@ -8,7 +8,7 @@ Coursework from school, organized by subject.
   - `my-work/` — my own projects (JS/PWA exercises)
   - `johanovsky/` — forks of the teacher's course repos (submodules)
 - `prm-pva/` — PRM and PVA (same subject in practice, split by language taught)
-  - `java/my-work/` — my own Java exercises
+  - `java/my-work/src/` — my own Java exercises, organized by topic (`01_zaklady` … `15_sql`, plus `16_mini_projekty` for standalone multi-file projects and `_ke_smazani` for junk)
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
   - `php/my-work/` — my own PHP exercises
   - `vba/teorie/` — VBA theory materials (slides, docs)
