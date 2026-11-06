@@ -7,16 +7,15 @@ Coursework from school, organized by subject.
 - `moa/` — MOA
   - `my-work/` — my own projects (JS/PWA exercises)
   - `johanovsky/` — forks of the teacher's course repos (submodules)
-- `prm-pva/` — PRM and PVA (same subject in practice, Java)
-  - `java/my-work/` — my own exercises
+- `prm-pva/` — PRM and PVA (same subject in practice, split by language taught)
+  - `java/my-work/` — my own Java exercises
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
+  - `php/my-work/` — my own PHP exercises
 - `ZZD/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
   - `reseni/` — solved exercises
   - `vba/` — macro-enabled projects
   - `data/` — source data files
-- `php/` — PHP
-  - `my-work/` — my own exercises
 
 No split by year — subjects stay together regardless of which year they were taken.
 
