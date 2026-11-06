@@ -1,0 +1,7 @@
+{
+    "name": "Roblox Rivals Gun Customization",
+    "short_name": "Rivals",
+    "description": "PWA aplikace pro konfiguraci Roblox zbraně",
+    "start_url": "./index.html",
+    "display": "standalone"
+}

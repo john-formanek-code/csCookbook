@@ -12,7 +12,7 @@ Coursework from school, organized by subject.
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
   - `php/my-work/` — my own PHP exercises
   - `vba/teorie/` — VBA theory materials (slides, docs)
-- `ZZD/` — ZZD (Excel/VBA)
+- `zzd/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
   - `reseni/` — solved exercises
   - `vba/` — macro-enabled projects
@@ -20,8 +20,9 @@ Coursework from school, organized by subject.
 - `zmm/` — ZMM (Photoshop lesson material)
 - `zpr/` — ZPR (HTML/CSS coursework)
   - `my-work/` — my own exercises
+- `freshman-year/` — first-year material spanning multiple subjects (apv, čeština, ICT, matika, prezentace, procházka) that doesn't map to a single subject folder above
 
-No split by year — subjects stay together regardless of which year they were taken.
+No split by year — subjects stay together regardless of which year they were taken, except `freshman-year/`, which predates the subject-based split.
 
 ## Git LFS
 
