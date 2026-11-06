@@ -20,7 +20,7 @@ Coursework from school, organized by subject.
 - `zmm/` — ZMM (Photoshop lesson material)
 - `zpr/` — ZPR (HTML/CSS coursework)
   - `my-work/` — my own exercises, organized by topic: `01_css`, `02_formulare`, `03_frameset`, `04_tabulky`, `05_projekty`, `06_teorie`, `_mimo_temata` (old unrelated DOS utilities)
-- `freshman-year/` — first-year material spanning multiple subjects (apv, čeština, ICT, matika, prezentace, procházka) that doesn't map to a single subject folder above
+- `freshman-year/` — first-year material spanning multiple subjects that doesn't map to a single subject folder above: `01_apv`, `02_cestina`, `03_ict` (split into `cviceni`, `dokumenty`, `excel`), `04_matika`, `05_prezentace`, `06_prochazka`
 
 No split by year — subjects stay together regardless of which year they were taken, except `freshman-year/`, which predates the subject-based split.
 
