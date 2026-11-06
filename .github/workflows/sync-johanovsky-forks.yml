@@ -30,14 +30,14 @@ jobs:
         run: |
           git submodule update --remote moa/johanovsky/2026_MOA4
           git submodule update --remote moa/johanovsky/2026_MOA3
-          git submodule update --remote prm-pva/johanovsky/2026_PRM3
+          git submodule update --remote prm-pva/java/johanovsky/2026_PRM3
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add moa/johanovsky prm-pva/johanovsky
+            git add moa/johanovsky prm-pva/java/johanovsky
             git commit -m "Sync johanovsky forks"
             git push
           else

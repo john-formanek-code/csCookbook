@@ -4,6 +4,6 @@
 [submodule "moa/johanovsky/2026_MOA3"]
 	path = moa/johanovsky/2026_MOA3
 	url = https://github.com/john-formanek-code/2026_MOA3.git
-[submodule "prm-pva/johanovsky/2026_PRM3"]
-	path = prm-pva/johanovsky/2026_PRM3
+[submodule "prm-pva/java/johanovsky/2026_PRM3"]
+	path = prm-pva/java/johanovsky/2026_PRM3
 	url = https://github.com/john-formanek-code/2026_PRM3.git

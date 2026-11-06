@@ -8,8 +8,8 @@ Coursework from school, organized by subject.
   - `my-work/` — my own projects (JS/PWA exercises)
   - `johanovsky/` — forks of the teacher's course repos (submodules)
 - `prm-pva/` — PRM and PVA (same subject in practice, Java)
-  - `my-work/` — my own exercises
-  - `johanovsky/` — fork of the teacher's PRM3 repo (submodule)
+  - `java/my-work/` — my own exercises
+  - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
 - `ZZD/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
   - `reseni/` — solved exercises
