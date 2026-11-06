@@ -17,8 +17,13 @@ Coursework from school, organized by subject.
   - `reseni/` — solved exercises
   - `vba/` — macro-enabled projects
   - `data/` — source data files
+- `zmm/` — ZMM (Photoshop lesson material)
 
 No split by year — subjects stay together regardless of which year they were taken.
+
+## Git LFS
+
+`zmm/` holds Photoshop lesson files (`.psd`, `.docx`, `.pptx`, `.ai`, `.abr`, `.otf`, `.db`), tracked via Git LFS instead of as regular blobs — see `.gitattributes`. Clone with Git LFS installed, or run `git lfs pull` after cloning to fetch the actual file contents.
 
 ## Submodules
 
