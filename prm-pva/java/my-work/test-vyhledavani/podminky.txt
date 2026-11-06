@@ -1,0 +1,4 @@
+osetreni chyb neznamená zabalit do try catch blocku - to nestačí musíš to udelat lepe
+
+napiš mi kod v java - zadani je v zadani.txt a je jako vstupní soubor je test.txt. jestě tam mam vlastni kometare jako ze nestaci osetreni chyb tak že jako dam to do try-catch blocku.
+nechci abys psal veci jako je tokenizator proste pouzi zakladni knihovny

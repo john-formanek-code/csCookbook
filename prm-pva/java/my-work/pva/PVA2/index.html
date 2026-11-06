@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Start</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif; }
+    body { margin: 0; background: #0f1115; color: #e6e6e6; display: grid; place-items: center; min-height: 100dvh; }
+    .wrap { width: min(980px, 92vw); }
+    .time { font-size: clamp(32px, 6vw, 72px); opacity: .9; letter-spacing: 1px; }
+    .date { opacity: .6; margin-bottom: 18px; }
+    form { display: flex; gap: 10px; margin: 22px 0 28px; }
+    input[type=search]{ flex:1; padding:14px 16px; border-radius:12px; border:1px solid #2a2f3a; background:#151823; color:#e6e6e6; outline:none; }
+    button{ padding:14px 16px; border-radius:12px; border:1px solid #2a2f3a; background:#1d2130; color:#e6e6e6; cursor:pointer; }
+    .grid{ display:grid; grid-template-columns: repeat(auto-fill,minmax(160px,1fr)); gap:12px; }
+    .card{ padding:14px; border:1px solid #2a2f3a; border-radius:14px; background:#151823; }
+    .card a{ color:#e6e6e6; text-decoration:none; display:block }
+    .card small{ opacity:.6 }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="time" id="time">--:--</div>
+    <div class="date" id="date">—</div>
+
+    <!-- univerzální vyhledávání (DDG); změň q= pro jiný engine -->
+    <form action="https://duckduckgo.com/" method="get">
+      <input type="search" name="q" placeholder="Search the web… (or type !g !yt !w …)" autofocus />
+      <button type="submit">Hledat</button>
+    </form>
+
+    <div class="grid">
+      <!-- své odkazy si přepiš -->
+      <div class="card"><a href="https://news.ycombinator.com/"><b>Hacker News</b><br><small>tech news</small></a></div>
+      <div class="card"><a href="https://github.com/"><b>GitHub</b><br><small>repos</small></a></div>
+      <div class="card"><a href="https://calendar.google.com/"><b>Calendar</b><br><small>schedule</small></a></div>
+      <div class="card"><a href="https://mail.google.com/"><b>Gmail</b><br><small>inbox</small></a></div>
+      <div class="card"><a href="https://tradingview.com/"><b>TradingView</b><br><small>charts</small></a></div>
+      <div class="card"><a href="file:///home/USERNAME/Downloads/"><b>Downloads</b><br><small>local folder</small></a></div>
+    </div>
+  </div>
+
+  <script>
+    function fmt(d){ return d.toString().padStart(2,'0'); }
+    function tick(){
+      const now=new Date();
+      const t = `${fmt(now.getHours())}:${fmt(now.getMinutes())}`;
+      const d = now.toLocaleDateString('cs-CZ',{weekday:'long', year:'numeric', month:'long', day:'numeric'});
+      document.getElementById('time').textContent=t;
+      document.getElementById('date').textContent=d;
+    }
+    tick(); setInterval(tick, 1000*15);
+  </script>
+</body>
+</html>

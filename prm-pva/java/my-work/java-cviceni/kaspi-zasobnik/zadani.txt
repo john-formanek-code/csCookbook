@@ -1,0 +1,9 @@
+1
+vygenerujte 100 čísel v rozmezi -5000 až 5000 do zásobníku - náhodná čísla. 
+odeberte prvni dve cisla -  sectete je a vysvedek vlozte na zasobnik - delejte to tak dlouho nez zbyde jedinné číslo
+takze to bude nejaký while 
+a vypiste 
+
+----
+2
+vygenerujete 100 čísel v rozmezi -5000 až 5000 do pole najdete v tom poli kolik - 3. největší číslo - kolik se rovná 3 největší číslo - 

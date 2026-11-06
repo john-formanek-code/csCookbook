@@ -1,0 +1,22 @@
+
+Pokyny
+
+vypracuj DVA ze čtyř:
+
+1/ Napiš program, který vygeneruje 100 různých měření teploty pro město Sydney, kde nejnižší teplota je 5 a nejvyšší 45 st. (jedno desetinné číslo)
+formát: Sydney,22,5
+Výstup ulož do souboru,
+
+2/ totéž v náhodném pořadí pro města: Atlanta(5,45), Praha(-12,35), Nagano(-20,20), Dakar(10,50), 1000 měření.
+
+3/ Napiš program, který vezme řetězec a převede jej na kodovani tlacitkoveho telefonu: String vstup="AHOJ" 2446665
+pouze používat velká písmísmena 26 slov anglické abeceby
+
+4/ Vygeneruj 100 náhodných hesel, které mají délku 25 čísel, skládají se jen z cifer 1-9, výsledek vypiš na řádky, jedno heslo jeden řádek.
+
+____
+je potřeba aby to bylo jakoby to bylo tímto způsobem
+
+u te jednicky do znamená to císlo 401 to nechapu
+
+nefunguje mi to protoze jsem 

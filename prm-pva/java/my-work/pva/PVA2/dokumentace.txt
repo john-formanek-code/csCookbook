@@ -1,0 +1,15 @@
+jde o prevod P2 to P3
+chci abys to udelal presne jako to je v souborecgh ktere jsem ti posal nechci žádné jiné novinky ani vymoženosta ni knihovny přesně poodle souboru co jsem ti poslal vypracuj to zadání.
+a ty knihovny pujzij pouze tyhel: import java.io.FileWriter;
+import java.io.IOException;
+
+javac Main.java
+
+# korektní P3 -> vytvoří P2 do souboru vystup_p2.ppm (PGM obsah, jen přípona je .ppm)
+java Main < logo-piktogram_p3.ppm
+
+# P3 s neúplnými daty -> vypíše "ŠPATNÝ STANDART"
+java Main < incomplete-data_p3.ppm
+
+# P6 (binární) -> vypíše "ŠPATNÝ STANDART"
+java Main < logo-piktogram_p6.ppm

@@ -1,0 +1,49 @@
+Napište program, který:
+
+    v metodě main načte data ze souboru do pole (testovací soubor a popis vstupu níže) a vyberete vhodnou metodu pro vyhledávání
+        ošetřete možné problémy se vstupním souborem
+        pokud je vstupní pole již seřazeno - použijte Bisekci
+        pokud seřazeno není - použijte metodu pro vyhledávání v nesetříděném poli
+        výsledek se bude zapisovat do konzole (vzor níže)
+        všechny chybové výstupy, hlášení, atd. budou striktně do chybového výstupu
+    napište dvě metody pro vyhledávání
+        metoda pro vyhledávání pomocí Bisekce - binární vyhledávání
+        metoda pro vyhledávání v nesetříděném poli - se zarážkou, bez zarážky, ....
+    kód vhodně (a slušně!) okomentujte
+    vyhledávací metody budou mít "dokumentační" komentář obsahující
+        složitost algoritmu (časová, prostorová)
+        vysvětlení co tato složitost znamená, jak se odvodí, ...
+
+Vzorový vstup 
+
+        první řádek obsahuje počet prvků v poli, hledané číslo
+        druhý řádek obsahuje samotná data
+        vstup se může opakovat
+
+<SIZE> <SEARCHED_NUMBER>
+<DATA>
+
+5 3
+1 2 3 4 5
+3 4
+1 5 7
+10 15
+11 2 3 4 5 6 7 8 9 10
+
+
+Vzorový výstup
+
+        první řádek obsahuje jméno vstupního souboru
+        další řádky obsahují data o jednotlivých vyhledáváních
+            číslo běhu (kolikáté probíhá vyhledávání)
+            použitá metoda
+            jaké číslo se hledalo
+            jestli se číslo našlo v zadaném poli
+
+<FILE_NAME>
+RUN <COUNT> - <USED_METHOD> : <SEARCHED_NUMBER> -> <TRUE/FALSE>
+
+test.txt
+RUN 1 - Binary : 3 -> true
+RUN 2 - Binary : 4 -> false
+RUN 3 - Bruteforce : 15 -> false
