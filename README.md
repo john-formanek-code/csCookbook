@@ -11,6 +11,7 @@ Coursework from school, organized by subject.
   - `java/my-work/` — my own Java exercises
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
   - `php/my-work/` — my own PHP exercises
+  - `vba/teorie/` — VBA theory materials (slides, docs)
 - `ZZD/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
   - `reseni/` — solved exercises
