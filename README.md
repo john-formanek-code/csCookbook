@@ -5,12 +5,12 @@ Coursework from school, organized by subject.
 ## Structure
 
 - `moa/` — MOA
-  - `my-work/` — my own projects (JS/PWA exercises)
+  - `my-work/` — my own projects (JS/PWA exercises), organized by topic: `01_zaklady`, `02_kalkulatory_matika_fyzika`, `03_hry`, `04_pwa_s_databazi`, `05_pocasi_api`
   - `johanovsky/` — forks of the teacher's course repos (submodules)
 - `prm-pva/` — PRM and PVA (same subject in practice, split by language taught)
   - `java/my-work/src/` — my own Java exercises, organized by topic (`01_zaklady` … `15_sql`, plus `16_mini_projekty` for standalone multi-file projects and `_ke_smazani` for junk)
   - `java/johanovsky/` — fork of the teacher's PRM3 repo (submodule)
-  - `php/my-work/` — my own PHP exercises
+  - `php/my-work/` — my own PHP exercises, organized by topic: `01_zaklady`, `02_funkce_include`, `03_formulare_get_post`, `04_algoritmy_s_formularem`, `05_cookies_a_session`, `_ke_smazani`
   - `vba/teorie/` — VBA theory materials (slides, docs)
 - `zzd/` — ZZD (Excel/VBA)
   - `zadani/` — assignments
@@ -19,7 +19,7 @@ Coursework from school, organized by subject.
   - `data/` — source data files
 - `zmm/` — ZMM (Photoshop lesson material)
 - `zpr/` — ZPR (HTML/CSS coursework)
-  - `my-work/` — my own exercises
+  - `my-work/` — my own exercises, organized by topic: `01_css`, `02_formulare`, `03_frameset`, `04_tabulky`, `05_projekty`, `06_teorie`, `_mimo_temata` (old unrelated DOS utilities)
 - `freshman-year/` — first-year material spanning multiple subjects (apv, čeština, ICT, matika, prezentace, procházka) that doesn't map to a single subject folder above
 
 No split by year — subjects stay together regardless of which year they were taken, except `freshman-year/`, which predates the subject-based split.
