@@ -24,18 +24,20 @@ jobs:
         run: |
           gh repo sync john-formanek-code/2026_MOA4 --source johanovsky/2026_MOA4 --force
           gh repo sync john-formanek-code/2026_MOA3 --source johanovsky/2026_MOA3 --force
+          gh repo sync john-formanek-code/2026_PRM3 --source johanovsky/2026_PRM3 --force
 
       - name: Update submodule pointers
         run: |
           git submodule update --remote moa/johanovsky/2026_MOA4
           git submodule update --remote moa/johanovsky/2026_MOA3
+          git submodule update --remote prm/johanovsky/2026_PRM3
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add moa/johanovsky
+            git add moa/johanovsky prm/johanovsky
             git commit -m "Sync johanovsky forks"
             git push
           else
